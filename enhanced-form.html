@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" name="andefiki">
+    <title>assignment week2</title>
+</head>
+<body>
+    <head>
+        <nav>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav>
+    </head>
+    <main>
+        <section>
+            <h1>assignment week 2 enhanced html5</h1>
+            <p>this is my assignment for web dev week 2</p>
+
+        <h2>Ordered List</h2>
+        <ol>
+            <li>tractors</li>
+            <li>sprayers</li>
+            <li>herbicide</li>
+            <li>fertilizer</li>
+        </ol>
+        <h3>Unordered list</h3>
+        <ul>
+            <li>tractor</li>
+            <li>sprayer</li>
+            <li>herbicide</li>
+            <li>fertilizer</li>
+        </ul>
+        </section>
+        <section id="table">
+            <h2>Table</h2>
+            <table border="2" >
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Tractor</td>
+                        <td>$20,000</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>Sprayer</td>
+                        <td>$15,000</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>Herbicide</td>
+                        <td>$500</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>Fertilizer</td>
+                        <td>$300</td>
+                        <td>100</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="definition-list">
+            <h2>Definition List</h2>
+            <dl>
+                <dt>Tractor</dt>
+                <dd>A powerful vehicle used for farming.</dd>
+                <dt>Sprayer</dt>
+                <dd>A machine used to apply herbicides and fertilizers.</dd>
+                <dt>Herbicide</dt>
+                <dd>A chemical used to kill unwanted plants.</dd>
+                <dt>Fertilizer</dt>
+                <dd>A substance added to soil to enhance plant growth.</dd>
+            </dl>
+        </section>
+
+        <section>
+            <h2>Media</h2>
+            <h3>Image</h3>
+            <img src="./images/IMG-20250523-WA0025.jpg" alt="farm Image" width="300" height="300">
+            <h3>Video</h3>
+            <video width="600" height="600" controls>
+                <source src="https://cdn.pixabay.com/video/2025/06/24/287510_large.mp4c" type="video/mp4" >
+                Your browser does not support the video tag.
+            </video>
+            <h2>audio</h2>
+            <audio controls>
+                <source src="./images/KYK Sweet Jesus.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>    
+        </section>
+    
+        <section>
+                <h2>Form</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input placeholder="type your name" type="text" id="name" name="name" required>
+                <br><br>
+                
+                <label for="email">Email:</label>
+                <input placeholder="type your email" type="email" id="email" name="email" required>
+                <br><br>
+
+                <label for="phone">Phone:</label>
+                <input placeholder="type your phone number" type="tel" id="phone" name="phone" required>
+                <br><br>
+
+                <label for="gender">gender:</label>
+                <input type="radio" id="male" name="gender" value="male">male
+                <input type="radio" id="female" name="gender" value="female">female
+                <br><br>
+                
+                <label for="country">country</label>
+                <select id="country" name="country" >
+                    <option value="select">--select country--</option>
+                    <option value="kenya">Kenya</option>
+                    <option value="uganda">Uganda</option>
+                    <option value="tanzania">Tanzania</option>
+                    <option value="rwanda">Rwanda</option>
+                </select>
+                    <br><br>
+
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+                <br><br>
+
+                <label for="message">Message:</label>
+                <textarea placeholder="input your message" id="message" name="message" rows="4" ></textarea>
+                <br><br>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+            
+    </main>
+    <footer>
+        <p>&copy; 2025 andefiki. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
